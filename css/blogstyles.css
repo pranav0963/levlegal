@@ -179,22 +179,26 @@ h1 {
 
 h2 {
     font-weight: 500;
+    font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 40px;
+    margin-left: 10%;
+    Margin-right: 10%
 }
 
 h3 {
     font-weight: 200;
-    font-size: large;
-    font-family:'Times New Roman', Times, serif;
-    font-style: italic;
+    font-size: medium;
     text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
 }
 
+h4{
+    margin-bottom: 2px;
+}
 hr {
     width: 80%;
     height: 3px;
@@ -203,11 +207,12 @@ hr {
     opacity: 1;
 }
 
-.normalorderlist>li>a {
-    margin-left: 20%;
-
+h5 {
+    color: #777;
+    margin-bottom: 17px;
+    margin-top: 0px;
+    margin-left: 20px;
 }
-
 .image-container {
     margin-left: 25%;
     display: flex;
